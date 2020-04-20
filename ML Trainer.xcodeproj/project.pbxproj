@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2128177C23748DE10027AD23 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2128177B23748DE10027AD23 /* GoogleService-Info.plist */; };
+		212D099C2374463D00E7FF03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212D099B2374463D00E7FF03 /* AppDelegate.swift */; };
+		212D099E2374463D00E7FF03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212D099D2374463D00E7FF03 /* SceneDelegate.swift */; };
+		212D09A12374463D00E7FF03 /* ML_Trainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 212D099F2374463D00E7FF03 /* ML_Trainer.xcdatamodeld */; };
+		212D09A32374463D00E7FF03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212D09A22374463D00E7FF03 /* ContentView.swift */; };
+		212D09A52374463E00E7FF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212D09A42374463E00E7FF03 /* Assets.xcassets */; };
+		212D09A82374463E00E7FF03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212D09A72374463E00E7FF03 /* Preview Assets.xcassets */; };
+		212D09AB2374463E00E7FF03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212D09A92374463E00E7FF03 /* LaunchScreen.storyboard */; };
+		2130B1DD244DCD4B001D0C38 /* catanddog_updateable.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2130B1DC244DCD4B001D0C38 /* catanddog_updateable.mlmodel */; };
+		2136CB9E244762740092047A /* downloaded.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2136CB9D244762730092047A /* downloaded.mlmodel */; };
+		2198E448237D5AAE00027A31 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2198E447237D5AAE00027A31 /* Classifier.swift */; };
+		21AEAFA1243BC60B008AE0FC /* catndog_small_updateable_b1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 21AEAFA0243BC60B008AE0FC /* catndog_small_updateable_b1.mlmodel */; };
+		21B3FF992379A27600C7AE97 /* MyImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B3FF982379A27600C7AE97 /* MyImagePickerView.swift */; };
+		21C5C705237ED4A900CF5B62 /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C5C704237ED4A900CF5B62 /* FirebaseController.swift */; };
+		21DFFB63237C426100711C7B /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DFFB62237C426000711C7B /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		21E482082420D82B00E246DF /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 21E482072420D82B00E246DF /* SqueezeNet.mlmodel */; };
+		7A049FB6CF48D039AFD15E38 /* libPods-ML Trainer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0421F822384D2D63DC7AD7 /* libPods-ML Trainer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2128177B23748DE10027AD23 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		212D09982374463D00E7FF03 /* ML Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ML Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212D099B2374463D00E7FF03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		212D099D2374463D00E7FF03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		212D09A02374463D00E7FF03 /* ML_Trainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ML_Trainer.xcdatamodel; sourceTree = "<group>"; };
+		212D09A22374463D00E7FF03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		212D09A42374463E00E7FF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		212D09A72374463E00E7FF03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		212D09AA2374463E00E7FF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		212D09AC2374463E00E7FF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2130B1DC244DCD4B001D0C38 /* catanddog_updateable.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = catanddog_updateable.mlmodel; sourceTree = "<group>"; };
+		2136CB9D244762730092047A /* downloaded.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = downloaded.mlmodel; sourceTree = "<group>"; };
+		2198E447237D5AAE00027A31 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		21AEAFA0243BC60B008AE0FC /* catndog_small_updateable_b1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = catndog_small_updateable_b1.mlmodel; sourceTree = "<group>"; };
+		21B3FF982379A27600C7AE97 /* MyImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImagePickerView.swift; sourceTree = "<group>"; };
+		21C5C704237ED4A900CF5B62 /* FirebaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
+		21DFFB62237C426000711C7B /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		21E482072420D82B00E246DF /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		344040579C55BD8878711389 /* Pods-ML Trainer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML Trainer.release.xcconfig"; path = "Target Support Files/Pods-ML Trainer/Pods-ML Trainer.release.xcconfig"; sourceTree = "<group>"; };
+		6E0421F822384D2D63DC7AD7 /* libPods-ML Trainer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ML Trainer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7845271B39A33A7B9F4A4379 /* Pods-ML Trainer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML Trainer.debug.xcconfig"; path = "Target Support Files/Pods-ML Trainer/Pods-ML Trainer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212D09952374463D00E7FF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A049FB6CF48D039AFD15E38 /* libPods-ML Trainer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212D098F2374463C00E7FF03 = {
+			isa = PBXGroup;
+			children = (
+				212D099A2374463D00E7FF03 /* ML Trainer */,
+				212D09992374463D00E7FF03 /* Products */,
+				806E0794D8C493B51AC4D5EE /* Pods */,
+				762479CDD5EFB0D3A63EDA27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		212D09992374463D00E7FF03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				212D09982374463D00E7FF03 /* ML Trainer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		212D099A2374463D00E7FF03 /* ML Trainer */ = {
+			isa = PBXGroup;
+			children = (
+				2130B1DC244DCD4B001D0C38 /* catanddog_updateable.mlmodel */,
+				2136CB9D244762730092047A /* downloaded.mlmodel */,
+				21AEAFA0243BC60B008AE0FC /* catndog_small_updateable_b1.mlmodel */,
+				21E482072420D82B00E246DF /* SqueezeNet.mlmodel */,
+				2128177B23748DE10027AD23 /* GoogleService-Info.plist */,
+				212D099B2374463D00E7FF03 /* AppDelegate.swift */,
+				212D099D2374463D00E7FF03 /* SceneDelegate.swift */,
+				212D09A22374463D00E7FF03 /* ContentView.swift */,
+				21B3FF982379A27600C7AE97 /* MyImagePickerView.swift */,
+				21DFFB62237C426000711C7B /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				2198E447237D5AAE00027A31 /* Classifier.swift */,
+				21C5C704237ED4A900CF5B62 /* FirebaseController.swift */,
+				212D09A92374463E00E7FF03 /* LaunchScreen.storyboard */,
+				212D09AC2374463E00E7FF03 /* Info.plist */,
+				212D099F2374463D00E7FF03 /* ML_Trainer.xcdatamodeld */,
+				212D09A42374463E00E7FF03 /* Assets.xcassets */,
+				212D09A62374463E00E7FF03 /* Preview Content */,
+			);
+			path = "ML Trainer";
+			sourceTree = "<group>";
+		};
+		212D09A62374463E00E7FF03 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				212D09A72374463E00E7FF03 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		762479CDD5EFB0D3A63EDA27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E0421F822384D2D63DC7AD7 /* libPods-ML Trainer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		806E0794D8C493B51AC4D5EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7845271B39A33A7B9F4A4379 /* Pods-ML Trainer.debug.xcconfig */,
+				344040579C55BD8878711389 /* Pods-ML Trainer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		212D09972374463D00E7FF03 /* ML Trainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212D09AF2374463E00E7FF03 /* Build configuration list for PBXNativeTarget "ML Trainer" */;
+			buildPhases = (
+				80F21AE07CD1E9D3A735C7BC /* [CP] Check Pods Manifest.lock */,
+				212D09942374463D00E7FF03 /* Sources */,
+				212D09952374463D00E7FF03 /* Frameworks */,
+				212D09962374463D00E7FF03 /* Resources */,
+				DD8080C0FDB16BA3A0B1F3FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ML Trainer";
+			productName = "ML Trainer";
+			productReference = 212D09982374463D00E7FF03 /* ML Trainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		212D09902374463C00E7FF03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Ervīns Balodis";
+				TargetAttributes = {
+					212D09972374463D00E7FF03 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 212D09932374463C00E7FF03 /* Build configuration list for PBXProject "ML Trainer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 212D098F2374463C00E7FF03;
+			productRefGroup = 212D09992374463D00E7FF03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				212D09972374463D00E7FF03 /* ML Trainer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		212D09962374463D00E7FF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212D09AB2374463E00E7FF03 /* LaunchScreen.storyboard in Resources */,
+				2128177C23748DE10027AD23 /* GoogleService-Info.plist in Resources */,
+				212D09A82374463E00E7FF03 /* Preview Assets.xcassets in Resources */,
+				212D09A52374463E00E7FF03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80F21AE07CD1E9D3A735C7BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ML Trainer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD8080C0FDB16BA3A0B1F3FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML Trainer/Pods-ML Trainer-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML Trainer/Pods-ML Trainer-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ML Trainer/Pods-ML Trainer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212D09942374463D00E7FF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AEAFA1243BC60B008AE0FC /* catndog_small_updateable_b1.mlmodel in Sources */,
+				21C5C705237ED4A900CF5B62 /* FirebaseController.swift in Sources */,
+				2136CB9E244762740092047A /* downloaded.mlmodel in Sources */,
+				2130B1DD244DCD4B001D0C38 /* catanddog_updateable.mlmodel in Sources */,
+				2198E448237D5AAE00027A31 /* Classifier.swift in Sources */,
+				21B3FF992379A27600C7AE97 /* MyImagePickerView.swift in Sources */,
+				212D09A12374463D00E7FF03 /* ML_Trainer.xcdatamodeld in Sources */,
+				21DFFB63237C426100711C7B /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				212D099C2374463D00E7FF03 /* AppDelegate.swift in Sources */,
+				21E482082420D82B00E246DF /* SqueezeNet.mlmodel in Sources */,
+				212D09A32374463D00E7FF03 /* ContentView.swift in Sources */,
+				212D099E2374463D00E7FF03 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		212D09A92374463E00E7FF03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212D09AA2374463E00E7FF03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		212D09AD2374463E00E7FF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		212D09AE2374463E00E7FF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		212D09B02374463E00E7FF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7845271B39A33A7B9F4A4379 /* Pods-ML Trainer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ML Trainer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6B25F59B4S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ML Trainer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ervins.ML-Trainer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		212D09B12374463E00E7FF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 344040579C55BD8878711389 /* Pods-ML Trainer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ML Trainer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6B25F59B4S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ML Trainer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ervins.ML-Trainer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		212D09932374463C00E7FF03 /* Build configuration list for PBXProject "ML Trainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212D09AD2374463E00E7FF03 /* Debug */,
+				212D09AE2374463E00E7FF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212D09AF2374463E00E7FF03 /* Build configuration list for PBXNativeTarget "ML Trainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212D09B02374463E00E7FF03 /* Debug */,
+				212D09B12374463E00E7FF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		212D099F2374463D00E7FF03 /* ML_Trainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				212D09A02374463D00E7FF03 /* ML_Trainer.xcdatamodel */,
+			);
+			currentVersion = 212D09A02374463D00E7FF03 /* ML_Trainer.xcdatamodel */;
+			path = ML_Trainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 212D09902374463C00E7FF03 /* Project object */;
+}

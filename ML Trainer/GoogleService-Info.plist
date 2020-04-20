@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1086687868721-kj9j69sbgd3oqetcv7j6v1s5kdvee8v4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1086687868721-kj9j69sbgd3oqetcv7j6v1s5kdvee8v4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA1oA1q7_2RStTZvU0tpMNS7JmFcqh-hVk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1086687868721</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ervins.ML-Trainer</string>
+	<key>PROJECT_ID</key>
+	<string>mlbakalaurs</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mlbakalaurs.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1086687868721:ios:b8a93cafa41c6c1e666210</string>
+	<key>DATABASE_URL</key>
+	<string>https://mlbakalaurs.firebaseio.com</string>
+</dict>
+</plist>
